@@ -1,0 +1,131 @@
+html, body{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.7;
+    background-color: #fff;
+}
+h1, h2, h3, h4{
+    font-family: 'Abel', sans-serif;   
+}
+b, strong{
+    font-weight: 400;
+}
+
+/*
+.navbar {
+    position: relative;
+    min-height:50px;
+    margin: 30px 50px 10px 50px;
+    border:1px solid transparent;
+*/
+
+}
+.navbar-nav>li>a {
+    font-size: 20px;
+}
+.navbar-brand {
+    font-size: 30px;
+}
+
+/*
+.navbar-wrapper{
+    width: auto;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+*/
+
+.carousel {
+    height: 500px;
+    margin-bottom: 60px;
+}
+.carousel-caption{
+    z-index: 10;
+}
+.carousel-inner > .item > img{
+    position: absolute;
+    top: 81px;
+    left: 0;
+    min-width: 100%;
+    height: auto;
+}
+.carousel-inner > .item{
+    height: 100px;   
+}
+
+.intro-block{
+/*    background: url(../images/purpalt.png) repeat;*/
+    background-color: ##3D7B8F;
+    padding: 20px 15px 20px;
+    margin: 1px 0px;
+    color: #fff;
+}
+.text-muted{
+    color: #e9e6df;
+    font-weight: 100;
+}
+.tpad{
+    padding-top: 20px;
+}
+.padded{
+    padding: 100px 15px;
+}
+.marketing{
+    background-color: #e9e6df;   
+}
+hr {
+    border-top: 1px solid #c9c9c9;   
+}
+.info{
+    background: #ffa753 url(../images/skyline.png) repeat-x bottom;
+    padding: 50px 0;
+}
+.info small{
+    color: #eeefe9;   
+}
+.info a{
+    color: #fff;   
+}
+.info a:hover{
+    color: #333;   
+}
+.tab-pane{
+    padding: 40px 10px 0 10px;
+}
+.ftr{
+/*   background: url(../images/shattered.png) repeat;*/
+    background-color: #3D7B8F;
+    padding: 15px 0 10px 0;
+}
+.ftr address, .ftr a, .ftr p{
+    color: #fff;   
+}
+.ft_space{
+    padding: 0 10px;   
+}
+.blog h1 a{ color: #4b8575; }
+.blog p a{ color: #ed7337; }
+.sidebar{
+    background-color: #e9e6df;   
+}
+.bpad{ margin-bottom: 30px;}
+.map {
+    height: 350px;
+    width: 100%;
+}
+
+
+@media(min-width: 768px){
+.carousel-inner > .item{
+    height: 700px;   
+}
+.map {
+    height: 500px;
+}
+    
+}
+
+
+
