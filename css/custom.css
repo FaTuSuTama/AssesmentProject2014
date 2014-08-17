@@ -6,7 +6,8 @@ html, body{
     background-color: #fff;
 }
 h1, h2, h3, h4{
-    font-family: 'Abel', sans-serif;   
+    font-family: 'Abel', sans-serif; 
+    color: #3d7b8f;
 }
 b, strong{
     font-weight: 400;
@@ -28,36 +29,28 @@ b, strong{
     font-size: 30px;
 }
 
-/*
-.navbar-wrapper{
-    width: auto;
-    padding-top: 15px;
-    padding-left: 15px;
-    padding-right: 15px;
+.item{
+    background: #333;    
+    text-align: center;
+    height: 300px !important;
 }
-*/
+.carousel{
+    margin-top: 70px;
+}
+.bs-example{
+	margin: 20px;
+}
 
-.carousel {
+.custom_img_slider{
+    width: 900px;
+    margin-left: 500px;
+    padding: 5px;
     height: 500px;
-    margin-bottom: 60px;
 }
-.carousel-caption{
-    z-index: 10;
-}
-.carousel-inner > .item > img{
-    position: absolute;
-    top: 81px;
-    left: 0;
-    min-width: 100%;
-    height: auto;
-}
-.carousel-inner > .item{
-    height: 100px;   
-}
+
 
 .intro-block{
-/*    background: url(../images/purpalt.png) repeat;*/
-    background-color: ##3D7B8F;
+    background: url(../images/purpalt.png) repeat;
     padding: 20px 15px 20px;
     margin: 1px 0px;
     color: #fff;
